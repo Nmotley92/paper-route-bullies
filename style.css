@@ -1,0 +1,42 @@
+nav {
+  background: linear-gradient(to right, #000e1b, #073846);
+  
+}
+main{
+  min-height: 100vh;
+}
+
+body {
+font-family: 'Sedgwick Ave Display', cursive;
+background-image: url('./images/bannerpic1024_1.jpg');
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  nav ul li {
+    margin-right: 1rem;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+  #dogs h1 {
+    text-align: center;
+  }

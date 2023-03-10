@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Landing Page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body class="mx-auto">
+  <nav class="bg-white py-4">
+    <div class="container mx-auto flex justify-between items-center mx-auto">
+
+      <ul class="flex space-x-4 mx-auto">
+        
+          <img src="./images/paperroute.png" alt="" class="rounded-full" style="height: 100px; width: 100px;">
+        
+        <li><a href="#" id="homeBtn" class="text-white hover:text-gray-200" style="display: none;">Home</a></li>
+        <li><a href="#" id="ourDogsBtn" class="text-white hover:text-gray-200">Our Dogs</a></li>
+        <li><a href='#' id="contactUsBtn" class="text-white hover:text-gray-200">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main class="bg-gray-100 py-12" style="background-image: url('./images/bannerpic1024_1.jpg')">
+
+    <div id="banner" class="h-screen w-screen bg-cover bg-center">
+      <div
+        class="bg-opacity-95 bg-gray-900 text-white py-10 rounded-lg shadow-lg flex flex-col items-center justify-center m-3">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
+          <div class="w-full md:w-1/2 text-center md:text-left m-5 p-5 ">
+            <h1 class="text-5xl font-bold mb-4">Paper Route Bullies</h1>
+            <p class="text-xl mb-4 ">Welcome to Paper Route Bullies! Our mission is to produce the finest exotic bullies
+              available anywhere, with a focus on exceptional health, temperament, and breed standard conformation. Our
+              commitment to excellence is evident in every litter we produce, and we're proud to offer puppies with
+              unique features and impressive pedigrees. Whether you're looking for a loyal companion, a top-quality show
+              dog, or a future breeding prospect, we're here to help you find the perfect bully for your family. Contact
+              us today to learn more about our breeding program and available puppies!.</p>
+            <div class="flex justify-center">
+              <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full mt-4">Learn
+                More</a>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2">
+            <img src="./images/bannerpicpaper.jpg" alt="Paper Route Bullies Logo" class="rounded-lg shadow-lg">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contactUs" class="bg-gray-900 text-white py-10 rounded-lg shadow-lg flex flex-col items-center justify-center m-3" style="display: none;">
+      <div class="text-center">
+        <h2 class="text-3xl font-bold mb-4">Contact Our Breeders</h2>
+        <p class="text-lg mb-4">For more information on our breeding program and available puppies, contact our two main breeders:</p>
+        <ul class="text-lg mb-4">
+          <li>John Doe: 123-456-7890</li>
+          <li>Jane Smith: 987-654-3210</li>
+        </ul>
+        <div class="flex justify-center">
+          <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full mt-4">Learn More</a>
+        </div>
+      </div>
+    </div>
+    
+
+    <div id="ourDogs" class="bg-gray-900 text-white py-10 rounded-lg shadow-lg flex flex-col items-center justify-center m-3" style="display: none;">
+      <div class="text-center">
+      <h1 class="text-3xl font-bold mb-4">Our Dogs</h1>
+      <p class="text-lg mb-4">We have a wide variety of dogs available for adoption. Please contact us for more information.</p>
+      </div>
+      <!-- create an empty container that will hold the dog cards later -->
+      <div id="dogCards" class="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
+      </div>
+    </div>
+    
+
+
+
+    
+    
+    
+  </main>
+</body>
+<script src="./index.js"></script>
+
+</html>
